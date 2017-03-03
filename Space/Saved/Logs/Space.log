@@ -1,0 +1,823 @@
+﻿Log file open, 03/03/17 09:24:54
+LogInit:Display: Running engine for game: Space
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-623531699) SRandInit(-623531699).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.098260
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.03-09.24.54:751][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.03-09.24.54:751][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.03-09.24.54:804][  0]LogInit: Computer: GAMES-105-006
+[2017.03.03-09.24.54:804][  0]LogInit: User: Games
+[2017.03.03-09.24.54:804][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.03-09.24.54:804][  0]LogInit: High frequency timer resolution =3.613320 MHz
+[2017.03.03-09.24.54:805][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.03.03-09.24.54:805][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.03-09.24.54:805][  0]LogMemory: Process Physical Memory: 257.55 MB used, 257.55 MB peak
+[2017.03.03-09.24.54:805][  0]LogMemory: Process Virtual Memory: 261.78 MB used, 261.78 MB peak
+[2017.03.03-09.24.54:805][  0]LogMemory: Physical Memory: 5094.07 MB used, 16261.73 MB total
+[2017.03.03-09.24.54:805][  0]LogMemory: Virtual Memory: 591.80 MB used, 8388608.00 MB total
+[2017.03.03-09.24.55:185][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.03.03-09.24.57:949][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.03-09.24.57:983][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
+[2017.03.03-09.24.57:983][  0]LogD3D11RHI:       1990/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.03-09.24.57:983][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.03-09.24.57:988][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.03-09.24.57:988][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.03-09.24.57:989][  0]LogWindows: EnumDisplayDevices:
+[2017.03.03-09.24.57:989][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:0 D:1)
+[2017.03.03-09.24.57:989][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:1 D:1)
+[2017.03.03-09.24.57:989][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.03.03-09.24.57:989][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.03.03-09.24.57:990][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.03.03-09.24.57:990][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.03.03-09.24.57:990][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.03.03-09.24.57:990][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.03.03-09.24.57:990][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
+[2017.03.03-09.24.57:990][  0]LogD3D11RHI:   Driver Version: 353.30 (internal:10.18.13.5330, unified:353.30)
+[2017.03.03-09.24.57:990][  0]LogD3D11RHI:      Driver Date: 6-17-2015
+[2017.03.03-09.24.57:990][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.03-09.24.58:004][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.03-09.24.58:020][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.03.03-09.24.58:020][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../../Users/Games/Desktop/Space/Intermediate/Shaders/WorkingDirectory/11168/).
+[2017.03.03-09.24.58:020][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Games/AppData/Local/Temp/UnrealShaderWorkingDir/909E89044661AD740E3C3FAA06DBD959/'.
+[2017.03.03-09.24.58:020][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.03-09.25.01:158][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.03-09.25.01:170][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.03-09.25.01:177][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.03-09.25.01:184][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.03-09.25.01:191][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.03-09.25.01:211][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.03-09.25.01:226][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.03-09.25.01:232][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.03-09.25.01:238][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.03-09.25.01:244][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.03-09.25.01:255][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.03-09.25.01:279][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.03-09.25.01:280][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.03-09.25.01:281][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.03-09.25.01:330][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.03-09.25.01:339][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.03-09.25.01:348][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.03-09.25.01:357][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.03-09.25.01:366][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.03-09.25.01:378][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.03-09.25.01:378][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.03-09.25.01:891][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.03-09.25.02:306][  0]LogDerivedDataCache: Loaded boot cache 0.42s 67MB C:/Users/Games/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.03.03-09.25.02:307][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Games/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.03.03-09.25.02:307][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Games/Desktop/Space/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.03-09.25.02:307][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.03-09.25.02:307][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Games/Desktop/Space/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.03-09.25.02:307][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.03-09.25.02:380][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.03-09.25.02:393][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Games/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.03-09.25.06:286][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.03-09.25.06:288][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.03-09.25.06:294][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.03-09.25.06:547][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.03.03-09.25.06:547][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.03-09.25.06:547][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.03.03-09.25.07:421][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: space, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 464501472
+[2017.03.03-09.25.07:498][  0]LogAssetRegistry: FAssetRegistry took 0.0207 seconds to start up
+[2017.03.03-09.25.07:526][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.025924 seconds
+[2017.03.03-09.25.07:532][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2017.03.03-09.25.07:532][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
+[2017.03.03-09.25.07:532][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.03-09.25.07:536][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.03-09.25.07:904][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.03-09.25.07:904][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.03-09.25.09:177][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.03-09.25.09:193][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.03-09.25.09:517][  0]SourceControl: Info Source control is disabled
+[2017.03.03-09.25.09:664][  0]SourceControl: Info Source control is disabled
+[2017.03.03-09.25.09:670][  0]SourceControl: Info Source control is disabled
+[2017.03.03-09.25.09:676][  0]SourceControl: Info Source control is disabled
+[2017.03.03-09.25.09:989][  0]LogEngine: Initializing Engine...
+[2017.03.03-09.25.09:990][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.03-09.25.10:129][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.03-09.25.10:139][  0]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.03-09.25.10:171][  0]LogInit: FAudioDevice initialized.
+[2017.03.03-09.25.10:212][  0]LogDerivedDataCache: Saved boot cache 0.04s 67MB C:/Users/Games/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.03.03-09.25.10:223][  0]LogInit: Texture streaming: Enabled
+[2017.03.03-09.25.10:244][  0]LogInit: Transaction tracking system initialized
+[2017.03.03-09.25.10:259][  0]BlueprintLog: New page: Editor Load
+[2017.03.03-09.25.10:346][  0]LocalizationService: Info Localization service is disabled
+[2017.03.03-09.25.10:411][  0]LogConsoleResponse:Display: 
+[2017.03.03-09.25.10:627][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.03-09.25.10:627][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.03-09.25.10:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Games/Desktop/Space/Content/' took 0.01s
+[2017.03.03-09.25.10:756][  0]SourceControl: Info Source control is disabled
+[2017.03.03-09.25.10:756][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Games/Desktop/Space/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.03-09.25.10:757][  0]LightingResults: New page: Lighting Build
+[2017.03.03-09.25.10:758][  0]MapCheck: New page: Map Check
+[2017.03.03-09.25.10:758][  0]LightingResults: New page: Lighting Build
+[2017.03.03-09.25.11:513][  0]LogTexture:Display: Building textures: T_Explosion_SubUV (AutoDXT)
+[2017.03.03-09.25.12:384][  0]LogTexture:Display: Building textures: T_Burst_M (AutoDXT)
+[2017.03.03-09.25.12:644][  0]LogTexture:Display: Building textures: T_Smoke_SubUV (AutoDXT)
+[2017.03.03-09.25.14:125][  0]LogTexture:Display: Building textures: T_Smoke_Tiled_D (AutoDXT)
+[2017.03.03-09.25.14:201][  0]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2017.03.03-09.25.14:315][  0]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2017.03.03-09.25.14:582][  0]LogTexture:Display: Building textures: T_Rock_Smooth_Granite_D (AutoDXT)
+[2017.03.03-09.25.17:678][  0]LogTexture:Display: Building textures: T_Gradinet_01 (AutoDXT)
+[2017.03.03-09.25.17:741][  0]LogTexture:Display: Building textures: T_CobbleStone_Rough_N (BC5)
+[2017.03.03-09.25.17:927][  0]LogTexture:Display: Building textures: T_CobbleStone_Rough_D (AutoDXT)
+[2017.03.03-09.25.18:845][  0]LogTexture:Display: Building textures: T_Metal_Steel_N (BC5)
+[2017.03.03-09.25.19:323][  0]LogTexture:Display: Building textures: T_Metal_Steel_D (AutoDXT)
+[2017.03.03-09.25.20:900][  0]LogTexture:Display: Building textures: T_MacroVariation (AutoDXT)
+[2017.03.03-09.25.23:213][  0]LogMaterial: Missing cached shader map for material M_Metal_Steel, compiling. 
+[2017.03.03-09.25.23:422][  0]LogTexture:Display: Building textures: T_Water_N (BC5)
+[2017.03.03-09.25.24:075][  0]LogTexture:Display: Building textures: T_Water_M (AutoDXT)
+[2017.03.03-09.25.25:335][  0]LogTexture:Display: Building textures: T_Ground_Gravel_N (BC5)
+[2017.03.03-09.25.26:175][  0]LogTexture:Display: Building textures: T_Ground_Gravel_D (AutoDXT)
+[2017.03.03-09.25.28:594][  0]LogTexture:Display: Building textures: T_Perlin_Noise_M (AutoDXT)
+[2017.03.03-09.25.30:741][  0]LogTexture:Display: Building textures: T_Metal_Gold_N (BC5)
+[2017.03.03-09.25.31:293][  0]LogTexture:Display: Building textures: T_Metal_Gold_D (AutoDXT)
+[2017.03.03-09.25.33:372][  0]LogMaterial: Missing cached shader map for material M_Metal_Gold, compiling. 
+[2017.03.03-09.25.33:784][  0]LogMaterial: Missing cached shader map for material M_Ground_Gravel, compiling. 
+[2017.03.03-09.25.33:861][  0]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2017.03.03-09.25.33:883][  0]LogTexture:Display: Building textures: HQ_Lightmap2_6 (AutoDXT)
+[2017.03.03-09.25.33:886][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2017.03.03-09.25.33:892][  0]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2017.03.03-09.25.33:921][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.03-09.25.36:883][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.03-09.25.36:884][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.03-09.25.36:961][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.482ms to complete.
+[2017.03.03-09.25.36:961][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 26.204
+[2017.03.03-09.25.37:173][  0]LogCollectionManager: Loaded 0 collections in 0.002163 seconds
+[2017.03.03-09.25.37:217][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Games/Desktop/Space/Saved/Collections/' took 0.01s
+[2017.03.03-09.25.37:217][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Games/Desktop/Space/Content/Developers/Games/Collections/' took 0.01s
+[2017.03.03-09.25.37:217][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Games/Desktop/Space/Content/Collections/' took 0.01s
+[2017.03.03-09.25.37:217][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.03.03-09.25.37:232][  0]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 2141 classes and 415 folders.
+[2017.03.03-09.25.37:237][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.03-09.25.37:237][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.03-09.25.37:238][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2017.03.03-09.25.37:244][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.03-09.25.37:654][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.03.03-09.25.37:663][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.03.03-09.25.37:687][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.03-09.25.37:693][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.03-09.25.37:720][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.03.03-09.25.37:720][  0]LogLoad: (Engine Initialization) Total time: 45.96 seconds
+[2017.03.03-09.25.37:720][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.24 seconds
+[2017.03.03-09.25.37:720][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.03-09.25.37:720][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.03-09.25.37:729][  0]LogOcInput: OculusInput pre-init called
+[2017.03.03-09.25.37:752][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.03-09.25.38:054][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2017.03.03-09.25.38:262][  2]LogAssetRegistry: Asset discovery search completed in 30.7840 seconds
+[2017.03.03-09.25.38:262][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.03.03-09.25.38:262][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2017.03.03-09.25.42:490][470]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.03-09.25.42:490][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.03-09.25.42:495][470]PIE: New page: PIE session: ThirdPersonExampleMap (3 Mar 2017 09:25:42)
+[2017.03.03-09.25.42:495][470]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.03-09.25.42:532][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036805s)
+[2017.03.03-09.25.42:533][470]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.03-09.25.42:533][470]LogPlayLevel: PIE: World Init took: (0.001505s)
+[2017.03.03-09.25.42:533][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.038709s)
+[2017.03.03-09.25.42:559][470]LogInit: XAudio2 using 'Speakers (Conexant HD Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.03-09.25.42:570][470]LogInit: FAudioDevice initialized.
+[2017.03.03-09.25.42:648][470]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2017.03.03-09.25.42:661][470]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.03-09.25.42
+[2017.03.03-09.25.42:688][470]LogWorld: Bringing up level for play took: 0.039294
+[2017.03.03-09.25.42:691][470]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.03.03-09.25.42:691][470]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.03-09.25.42:691][470]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.03-09.25.42:691][470]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.03-09.25.42:693][470]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.03-09.25.42:697][470]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.216
+[2017.03.03-09.25.42:697][470]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.03-09.25.42:757][470]LogRenderer: Reallocating scene render targets to support 1292x756 (Frame:467).
+[2017.03.03-09.25.44:569][663]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_0.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.25.44:569][663]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_0.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.25.46:485][892]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_1.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.25.46:485][892]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_1.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.25.48:484][106]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_2.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.25.48:485][106]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_2.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.25.50:479][344]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_3.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.25.50:480][344]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_3.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.25.52:488][580]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_4.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.25.52:488][580]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_4.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.25.54:482][818]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_5.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.25.54:482][818]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_5.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.25.55:448][934]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.03.03-09.25.55:448][934]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.03.03-09.25.55:449][934]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2017.03.03-09.25.55:449][934]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2017.03.03-09.25.55:462][934]Cmd: MEM
+[2017.03.03-09.25.55:472][934]LogMemory: Platform Memory Stats for Windows
+[2017.03.03-09.25.55:472][934]LogMemory: Process Physical Memory: 1133.19 MB used, 1172.06 MB peak
+[2017.03.03-09.25.55:472][934]LogMemory: Process Virtual Memory: 1768.01 MB used, 1895.89 MB peak
+[2017.03.03-09.25.55:472][934]LogMemory: Physical Memory: 6006.92 MB used, 16261.73 MB total
+[2017.03.03-09.25.55:472][934]LogMemory: Virtual Memory: 2518.56 MB used, 8388608.00 MB total
+[2017.03.03-09.25.55:472][934]LogMemory: 
+[2017.03.03-09.25.55:472][934]Allocator Stats for TBB: (not implemented)
+[2017.03.03-09.25.55:472][934]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.03-09.25.55:505][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032578s)
+[2017.03.03-09.25.55:506][934]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.03-09.25.55:506][934]LogPlayLevel: PIE: World Init took: (0.001228s)
+[2017.03.03-09.25.55:506][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.034097s)
+[2017.03.03-09.25.55:506][934]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2017.03.03-09.25.55:523][934]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.03-09.25.55
+[2017.03.03-09.25.55:524][934]LogWorld: Bringing up level for play took: 0.016493
+[2017.03.03-09.25.55:525][934]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.03-09.25.55:525][934]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.03-09.25.55:525][934]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.03-09.25.55:526][934]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.03-09.25.55:526][934]LogLoad: Took 0.076853 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2017.03.03-09.25.57:452][157]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_0.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.25.57:452][157]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_0.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.25.59:455][396]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_1.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.25.59:455][396]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_1.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.01:452][632]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_2.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.01:452][632]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_2.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.03:456][868]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_3.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.03:456][868]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_3.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.05:458][105]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_4.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.05:458][105]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_4.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.07:453][343]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_5.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.07:453][343]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_5.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.08:417][459]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.03.03-09.26.08:417][459]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.03.03-09.26.08:418][459]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2017.03.03-09.26.08:418][459]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2017.03.03-09.26.08:431][459]Cmd: MEM
+[2017.03.03-09.26.08:441][459]LogMemory: Platform Memory Stats for Windows
+[2017.03.03-09.26.08:441][459]LogMemory: Process Physical Memory: 1152.30 MB used, 1172.06 MB peak
+[2017.03.03-09.26.08:441][459]LogMemory: Process Virtual Memory: 1765.20 MB used, 1946.93 MB peak
+[2017.03.03-09.26.08:441][459]LogMemory: Physical Memory: 5874.54 MB used, 16261.73 MB total
+[2017.03.03-09.26.08:441][459]LogMemory: Virtual Memory: 2513.50 MB used, 8388608.00 MB total
+[2017.03.03-09.26.08:441][459]LogMemory: 
+[2017.03.03-09.26.08:441][459]Allocator Stats for TBB: (not implemented)
+[2017.03.03-09.26.08:441][459]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.03-09.26.08:471][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029834s)
+[2017.03.03-09.26.08:472][459]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.03-09.26.08:472][459]LogPlayLevel: PIE: World Init took: (0.001330s)
+[2017.03.03-09.26.08:472][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.031464s)
+[2017.03.03-09.26.08:473][459]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2017.03.03-09.26.08:489][459]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.03-09.26.08
+[2017.03.03-09.26.08:490][459]LogWorld: Bringing up level for play took: 0.016514
+[2017.03.03-09.26.08:491][459]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.03-09.26.08:491][459]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.03-09.26.08:491][459]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.03-09.26.08:492][459]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.03-09.26.08:492][459]LogLoad: Took 0.073773 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2017.03.03-09.26.10:428][688]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_0.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.10:428][688]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_0.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.12:421][927]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_1.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.12:421][927]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_1.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.13:395][ 44]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.03.03-09.26.13:395][ 44]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.03.03-09.26.13:396][ 44]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2017.03.03-09.26.13:396][ 44]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2017.03.03-09.26.13:408][ 44]Cmd: MEM
+[2017.03.03-09.26.13:417][ 44]LogMemory: Platform Memory Stats for Windows
+[2017.03.03-09.26.13:417][ 44]LogMemory: Process Physical Memory: 1160.64 MB used, 1173.14 MB peak
+[2017.03.03-09.26.13:417][ 44]LogMemory: Process Virtual Memory: 1773.80 MB used, 1946.93 MB peak
+[2017.03.03-09.26.13:417][ 44]LogMemory: Physical Memory: 5875.88 MB used, 16261.73 MB total
+[2017.03.03-09.26.13:417][ 44]LogMemory: Virtual Memory: 2522.06 MB used, 8388608.00 MB total
+[2017.03.03-09.26.13:417][ 44]LogMemory: 
+[2017.03.03-09.26.13:417][ 44]Allocator Stats for TBB: (not implemented)
+[2017.03.03-09.26.13:417][ 44]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.03-09.26.13:446][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028448s)
+[2017.03.03-09.26.13:447][ 44]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.03-09.26.13:447][ 44]LogPlayLevel: PIE: World Init took: (0.001283s)
+[2017.03.03-09.26.13:447][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.030024s)
+[2017.03.03-09.26.13:447][ 44]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2017.03.03-09.26.13:464][ 44]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.03-09.26.13
+[2017.03.03-09.26.13:464][ 44]LogWorld: Bringing up level for play took: 0.016136
+[2017.03.03-09.26.13:465][ 44]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.03-09.26.13:465][ 44]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.03-09.26.13:465][ 44]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.03-09.26.13:466][ 44]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.03-09.26.13:466][ 44]LogLoad: Took 0.070323 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2017.03.03-09.26.15:402][273]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_0.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.15:402][273]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_0.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.17:403][513]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_1.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.17:404][513]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_1.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.19:402][751]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_2.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.19:403][751]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_2.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.21:400][989]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_3.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.21:401][989]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_3.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.23:398][227]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_4.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.23:398][227]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_4.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.25:400][466]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_5.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.25:400][466]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_5.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.27:404][705]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_6.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.27:404][705]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_6.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.29:400][940]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_7.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.29:400][940]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_7.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.31:403][178]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_8.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.31:403][178]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_8.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.33:399][416]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_9.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.33:400][416]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_9.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.35:402][653]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_10.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.35:402][653]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_10.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.37:401][891]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_11.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.37:401][891]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_11.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.39:403][129]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_12.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.39:403][129]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_12.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.41:403][364]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_13.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.41:403][364]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_13.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.43:399][602]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_14.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.43:399][602]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_14.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.45:404][841]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_15.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.45:405][841]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_15.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.47:405][ 80]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_16.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.47:405][ 80]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_16.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.49:401][318]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_17.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.49:401][318]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_17.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.51:405][557]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_18.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.51:405][557]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_18.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.53:401][795]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_19.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.53:401][795]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_19.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.55:403][ 34]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_20.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.55:403][ 34]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_20.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.57:402][272]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_21.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.57:402][272]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_21.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.59:399][510]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_22.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.26.59:399][510]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_22.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.01:398][748]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_23.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.01:398][748]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_23.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.03:400][986]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_24.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.03:401][986]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_24.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.05:401][224]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_25.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.05:401][224]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_25.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.07:399][461]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_26.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.07:399][461]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_26.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.09:401][699]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_27.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.09:402][699]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_27.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.11:403][935]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_28.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.11:403][935]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_28.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.13:406][172]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_29.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.13:406][172]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_29.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.15:398][407]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_30.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.15:398][407]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_30.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.17:401][644]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_31.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.17:401][644]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_31.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.19:403][882]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_32.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.19:403][882]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_32.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.21:402][120]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_33.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.21:402][120]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_33.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.23:400][358]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_34.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.23:400][358]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_34.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.25:398][597]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_35.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.25:399][597]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_35.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.27:403][836]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_36.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.27:403][836]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_36.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.29:400][ 73]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_37.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.29:401][ 73]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_37.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.31:404][309]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_38.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.31:404][309]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_38.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.33:399][546]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_39.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.33:399][546]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_39.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.35:400][782]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_40.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.35:400][782]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_40.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.37:406][ 20]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_41.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.37:406][ 20]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_41.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.39:402][258]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_42.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.39:402][258]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_42.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.41:401][495]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_43.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.41:401][495]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_43.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.43:405][734]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_44.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.43:405][734]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_44.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.45:401][972]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_45.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.45:401][972]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_45.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.47:399][209]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_46.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.47:399][209]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_46.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.49:400][447]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_47.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.49:400][447]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_47.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.51:401][685]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_48.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.51:401][685]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_48.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.53:405][921]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_49.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.53:405][921]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_49.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.55:405][148]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_50.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.55:406][148]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_50.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.57:405][380]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_51.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.57:405][380]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_51.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.59:401][613]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_52.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.27.59:401][613]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_52.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.28.01:404][850]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_53.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.28.01:404][850]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_53.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.28.03:407][ 89]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_54.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.28.03:407][ 89]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_54.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.28.05:400][324]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_55.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.28.05:400][324]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_55.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.28.07:402][562]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_56.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.28.07:402][562]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_56.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.28.07:853][616]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.03.03-09.28.07:853][616]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.03.03-09.28.07:854][616]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2017.03.03-09.28.07:854][616]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2017.03.03-09.28.07:870][616]Cmd: MEM
+[2017.03.03-09.28.07:879][616]LogMemory: Platform Memory Stats for Windows
+[2017.03.03-09.28.07:880][616]LogMemory: Process Physical Memory: 1143.74 MB used, 1173.61 MB peak
+[2017.03.03-09.28.07:880][616]LogMemory: Process Virtual Memory: 1754.07 MB used, 1946.93 MB peak
+[2017.03.03-09.28.07:880][616]LogMemory: Physical Memory: 5834.12 MB used, 16261.73 MB total
+[2017.03.03-09.28.07:880][616]LogMemory: Virtual Memory: 2497.32 MB used, 8388608.00 MB total
+[2017.03.03-09.28.07:880][616]LogMemory: 
+[2017.03.03-09.28.07:880][616]Allocator Stats for TBB: (not implemented)
+[2017.03.03-09.28.07:880][616]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.03-09.28.07:910][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030250s)
+[2017.03.03-09.28.07:911][616]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.03-09.28.07:911][616]LogPlayLevel: PIE: World Init took: (0.001323s)
+[2017.03.03-09.28.07:911][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.031871s)
+[2017.03.03-09.28.07:912][616]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2017.03.03-09.28.07:929][616]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.03-09.28.07
+[2017.03.03-09.28.07:929][616]LogWorld: Bringing up level for play took: 0.017108
+[2017.03.03-09.28.07:930][616]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.03-09.28.07:930][616]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.03-09.28.07:930][616]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.03-09.28.07:931][616]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.03-09.28.07:931][616]LogLoad: Took 0.077295 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2017.03.03-09.28.09:861][844]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_0.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.28.09:861][844]PIE:Warning: Warning Invalid Simulate Options: Body (Shape_Sphere_DM_C_0.Collision) is set to simulate physics but Collision Enabled is incompatible
+[2017.03.03-09.28.11:628][ 56]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.03-09.28.11:670][ 56]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.03-09.28.28:389][941]LogSavePackage: Save=286.17ms
+[2017.03.03-09.28.28:389][941]LogSavePackage: Moving '../../../../../../Users/Games/Desktop/Space/Saved/ThirdPersonExampleMap885218E847BFE17CCA7F2096ECD771EE.tmp' to '../../../../../../Users/Games/Desktop/Space/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.03-09.28.28:392][941]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Games/Desktop/Space/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.03-09.28.30:589][157]Cmd: QUIT_EDITOR
+[2017.03.03-09.28.30:694][157]LogExit: Preparing to exit.
+[2017.03.03-09.28.31:355][157]LogDirectoryWatcher: A directory notification for 'C:/Users/Games/Desktop/Space/Content/' was aborted.
+[2017.03.03-09.28.31:398][157]LogExit: Editor shut down
+[2017.03.03-09.28.31:398][157]LogExit: Transaction tracking system shut down
+[2017.03.03-09.28.31:539][157]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.03-09.28.31:539][157]LogExit: Object subsystem successfully closed.
+[2017.03.03-09.28.31:565][157]LogD3D11RHI: Shutdown
+[2017.03.03-09.28.31:565][157]LogD3D11RHI: CleanupD3DDevice
+[2017.03.03-09.28.31:632][157]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.03-09.28.31:647][157]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (234)
+[2017.03.03-09.28.31:647][157]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (233)
+[2017.03.03-09.28.31:647][157]LogModuleManager: Shutting down and abandoning module CrashTracker (232)
+[2017.03.03-09.28.31:647][157]LogModuleManager: Shutting down and abandoning module SceneOutliner (231)
+[2017.03.03-09.28.31:647][157]LogModuleManager: Shutting down and abandoning module WidgetCarousel (230)
+[2017.03.03-09.28.31:647][157]LogModuleManager: Shutting down and abandoning module AddContentDialog (229)
+[2017.03.03-09.28.31:647][157]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.13/FeaturePacks/' was aborted.
+[2017.03.03-09.28.31:648][157]LogModuleManager: Shutting down and abandoning module GameplayTags (228)
+[2017.03.03-09.28.31:648][157]LogModuleManager: Shutting down and abandoning module EditorWidgets (227)
+[2017.03.03-09.28.31:648][157]LogModuleManager: Shutting down and abandoning module CollectionManager (226)
+[2017.03.03-09.28.31:648][157]LogDirectoryWatcher: A directory notification for 'C:/Users/Games/Desktop/Space/Content/Collections/' was aborted.
+[2017.03.03-09.28.31:648][157]LogDirectoryWatcher: A directory notification for 'C:/Users/Games/Desktop/Space/Content/Developers/Games/Collections/' was aborted.
+[2017.03.03-09.28.31:648][157]LogDirectoryWatcher: A directory notification for 'C:/Users/Games/Desktop/Space/Saved/Collections/' was aborted.
+[2017.03.03-09.28.31:648][157]LogModuleManager: Shutting down and abandoning module StatsViewer (225)
+[2017.03.03-09.28.31:648][157]LogModuleManager: Shutting down and abandoning module FoliageEdit (224)
+[2017.03.03-09.28.31:648][157]LogModuleManager: Shutting down and abandoning module LandscapeEditor (223)
+[2017.03.03-09.28.31:648][157]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (222)
+[2017.03.03-09.28.31:648][157]LogModuleManager: Shutting down and abandoning module ActorPickerMode (221)
+[2017.03.03-09.28.31:648][157]LogModuleManager: Shutting down and abandoning module GeometryMode (220)
+[2017.03.03-09.28.31:648][157]LogModuleManager: Shutting down and abandoning module TextureAlignMode (219)
+[2017.03.03-09.28.31:648][157]LogModuleManager: Shutting down and abandoning module BspMode (218)
+[2017.03.03-09.28.31:648][157]LogModuleManager: Shutting down and abandoning module HardwareSurvey (217)
+[2017.03.03-09.28.31:648][157]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (216)
+[2017.03.03-09.28.31:648][157]LogModuleManager: Shutting down and abandoning module SequenceRecorder (215)
+[2017.03.03-09.28.31:648][157]LogModuleManager: Shutting down and abandoning module AutomationWorker (214)
+[2017.03.03-09.28.31:648][157]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (213)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module PlacementMode (212)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (211)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (210)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (209)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (208)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (207)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module Media (206)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (205)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (204)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module CharacterAI (203)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module SmartSnapping (202)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module SessionServices (201)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module ViewportSnapping (200)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module ViewportInteraction (199)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module LogVisualizer (198)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (197)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module IntroTutorials (196)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (195)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (194)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (193)
+[2017.03.03-09.28.31:649][157]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (192)
+[2017.03.03-09.28.32:390][157]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (191)
+[2017.03.03-09.28.32:391][157]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (190)
+[2017.03.03-09.28.32:391][157]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (189)
+[2017.03.03-09.28.32:391][157]LogModuleManager: Shutting down and abandoning module NiagaraEditor (188)
+[2017.03.03-09.28.32:391][157]LogModuleManager: Shutting down and abandoning module MergeActors (187)
+[2017.03.03-09.28.32:391][157]LogModuleManager: Shutting down and abandoning module SizeMap (186)
+[2017.03.03-09.28.32:391][157]LogModuleManager: Shutting down and abandoning module TreeMap (185)
+[2017.03.03-09.28.32:391][157]LogModuleManager: Shutting down and abandoning module ReferenceViewer (184)
+[2017.03.03-09.28.32:391][157]LogModuleManager: Shutting down and abandoning module LocalizationService (183)
+[2017.03.03-09.28.32:391][157]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (182)
+[2017.03.03-09.28.32:391][157]LogModuleManager: Shutting down and abandoning module HardwareTargeting (181)
+[2017.03.03-09.28.32:391][157]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (180)
+[2017.03.03-09.28.32:391][157]LogModuleManager: Shutting down and abandoning module UndoHistory (179)
+[2017.03.03-09.28.32:391][157]LogModuleManager: Shutting down and abandoning module UserFeedback (178)
+[2017.03.03-09.28.32:391][157]LogModuleManager: Shutting down and abandoning module XmlParser (177)
+[2017.03.03-09.28.32:391][157]LogModuleManager: Shutting down and abandoning module Blutility (176)
+[2017.03.03-09.28.32:391][157]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (175)
+[2017.03.03-09.28.32:392][157]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (174)
+[2017.03.03-09.28.32:392][157]LogModuleManager: Shutting down and abandoning module InputBindingEditor (173)
+[2017.03.03-09.28.32:392][157]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (172)
+[2017.03.03-09.28.32:392][157]LogModuleManager: Shutting down and abandoning module SettingsEditor (171)
+[2017.03.03-09.28.32:392][157]LogModuleManager: Shutting down and abandoning module ProjectLauncher (170)
+[2017.03.03-09.28.32:392][157]LogModuleManager: Shutting down and abandoning module SessionFrontend (169)
+[2017.03.03-09.28.32:392][157]LogModuleManager: Shutting down and abandoning module ProfilerClient (168)
+[2017.03.03-09.28.32:392][157]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (167)
+[2017.03.03-09.28.32:392][157]LogModuleManager: Shutting down and abandoning module DeviceManager (166)
+[2017.03.03-09.28.32:442][157]LogModuleManager: Shutting down and abandoning module AutomationController (165)
+[2017.03.03-09.28.32:442][157]LogModuleManager: Shutting down and abandoning module AutomationWindow (164)
+[2017.03.03-09.28.32:442][157]LogModuleManager: Shutting down and abandoning module Layers (163)
+[2017.03.03-09.28.32:442][157]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (162)
+[2017.03.03-09.28.32:442][157]LogModuleManager: Shutting down and abandoning module DetailCustomizations (161)
+[2017.03.03-09.28.32:442][157]LogModuleManager: Shutting down and abandoning module PackagesDialog (160)
+[2017.03.03-09.28.32:442][157]LogModuleManager: Shutting down and abandoning module AnimGraph (159)
+[2017.03.03-09.28.32:442][157]LogModuleManager: Shutting down and abandoning module Persona (158)
+[2017.03.03-09.28.32:442][157]LogModuleManager: Shutting down and abandoning module Kismet (157)
+[2017.03.03-09.28.32:444][157]LogModuleManager: Shutting down and abandoning module GraphEditor (156)
+[2017.03.03-09.28.32:444][157]LogModuleManager: Shutting down and abandoning module ClassViewer (155)
+[2017.03.03-09.28.32:444][157]LogModuleManager: Shutting down and abandoning module Toolbox (154)
+[2017.03.03-09.28.32:444][157]LogModuleManager: Shutting down and abandoning module ModuleUI (153)
+[2017.03.03-09.28.32:444][157]LogModuleManager: Shutting down and abandoning module MovieSceneTools (152)
+[2017.03.03-09.28.32:444][157]LogModuleManager: Shutting down and abandoning module OutputLog (151)
+[2017.03.03-09.28.32:444][157]LogModuleManager: Shutting down and abandoning module GammaUI (150)
+[2017.03.03-09.28.32:444][157]LogModuleManager: Shutting down and abandoning module Documentation (149)
+[2017.03.03-09.28.32:444][157]LogModuleManager: Shutting down and abandoning module Niagara (148)
+[2017.03.03-09.28.32:444][157]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (147)
+[2017.03.03-09.28.32:444][157]LogModuleManager: Shutting down and abandoning module AnalyticsET (146)
+[2017.03.03-09.28.32:445][157]LogModuleManager: Shutting down and abandoning module PortalServices (145)
+[2017.03.03-09.28.32:445][157]LogModuleManager: Shutting down and abandoning module PortalRpc (144)
+[2017.03.03-09.28.32:445][157]LogModuleManager: Shutting down and abandoning module MessagingRpc (143)
+[2017.03.03-09.28.32:445][157]LogModuleManager: Shutting down and abandoning module GameplayDebugger (142)
+[2017.03.03-09.28.32:445][157]LogModuleManager: Shutting down and abandoning module AITestSuite (141)
+[2017.03.03-09.28.32:445][157]LogModuleManager: Shutting down and abandoning module AIModule (140)
+[2017.03.03-09.28.32:445][157]LogModuleManager: Shutting down and abandoning module ProfilerService (139)
+[2017.03.03-09.28.32:496][157]LogModuleManager: Shutting down and abandoning module TaskGraph (138)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module SlateRemote (137)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module SteamVRController (136)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module SteamVR (135)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (134)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (133)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module OculusLibrary (132)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module OculusInput (131)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (130)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module CableComponent (129)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (128)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (126)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module HTML5Networking (125)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (124)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module GeometryCache (123)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module AlembicLibrary (122)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module AlembicImporter (121)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module SuperSearch (120)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (119)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (118)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module PluginBrowser (117)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (116)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module EpicSurvey (115)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module DesktopPlatform (114)
+[2017.03.03-09.28.32:497][157]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
+[2017.03.03-09.28.32:498][157]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
+[2017.03.03-09.28.32:498][157]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
+[2017.03.03-09.28.32:498][157]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
+[2017.03.03-09.28.32:498][157]LogModuleManager: Shutting down and abandoning module SourceControl (109)
+[2017.03.03-09.28.32:498][157]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
+[2017.03.03-09.28.32:498][157]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
+[2017.03.03-09.28.32:498][157]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
+[2017.03.03-09.28.32:498][157]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
+[2017.03.03-09.28.32:498][157]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
+[2017.03.03-09.28.32:498][157]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (103)
+[2017.03.03-09.28.32:498][157]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (102)
+[2017.03.03-09.28.32:498][157]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2017.03.03-09.28.32:500][157]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2017.03.03-09.28.32:500][157]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2017.03.03-09.28.32:501][157]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
+[2017.03.03-09.28.32:503][157]LogModuleManager: Shutting down and abandoning module Paper2DEditor (97)
+[2017.03.03-09.28.32:503][157]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
+[2017.03.03-09.28.32:603][157]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
+[2017.03.03-09.28.32:703][157]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2017.03.03-09.28.32:703][157]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2017.03.03-09.28.32:703][157]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2017.03.03-09.28.32:703][157]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2017.03.03-09.28.32:704][157]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2017.03.03-09.28.32:704][157]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2017.03.03-09.28.32:704][157]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2017.03.03-09.28.32:704][157]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2017.03.03-09.28.32:704][157]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2017.03.03-09.28.32:704][157]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2017.03.03-09.28.32:704][157]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2017.03.03-09.28.32:704][157]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2017.03.03-09.28.32:704][157]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2017.03.03-09.28.32:705][157]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2017.03.03-09.28.32:705][157]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2017.03.03-09.28.32:705][157]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2017.03.03-09.28.32:705][157]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2017.03.03-09.28.32:705][157]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2017.03.03-09.28.32:705][157]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2017.03.03-09.28.32:705][157]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2017.03.03-09.28.32:705][157]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2017.03.03-09.28.32:705][157]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2017.03.03-09.28.32:711][157]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2017.03.03-09.28.32:711][157]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2017.03.03-09.28.32:711][157]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2017.03.03-09.28.32:711][157]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2017.03.03-09.28.32:711][157]LogModuleManager: Shutting down and abandoning module Core (67)
+[2017.03.03-09.28.32:711][157]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2017.03.03-09.28.32:711][157]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.03-09.28.32:712][157]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Games/Desktop/Space/Content/' was aborted.
+[2017.03.03-09.28.32:712][157]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.03-09.28.32:713][157]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2017.03.03-09.28.32:968][157]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2017.03.03-09.28.32:969][157]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2017.03.03-09.28.32:969][157]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2017.03.03-09.28.32:969][157]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2017.03.03-09.28.32:977][157]LogDerivedDataCache: Shutdown
+[2017.03.03-09.28.32:977][157]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2017.03.03-09.28.32:977][157]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2017.03.03-09.28.32:977][157]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2017.03.03-09.28.32:977][157]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2017.03.03-09.28.32:977][157]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2017.03.03-09.28.32:977][157]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2017.03.03-09.28.32:977][157]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2017.03.03-09.28.32:977][157]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2017.03.03-09.28.32:978][157]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.03-09.28.32:978][157]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.03.03-09.28.32:978][157]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.03-09.28.32:978][157]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB2154688-40CE-F96C-852D-23AE66FB2638%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=2981cdf94756a6251ca21abec8dbc73e%7Cf492d71bb8a146f39f4069461f147dd3%7C42bcb7ff-98a2-4f47-9b53-75a8cb939ddb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.03-09.28.33:004][157]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.03.03-09.28.33:004][157]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.03-09.28.33:005][157]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.03-09.28.33:005][157]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.03-09.28.33:005][157]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.03-09.28.33:007][157]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.03-09.28.33:007][157]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.03-09.28.33:007][157]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.03-09.28.33:007][157]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.03-09.28.33:007][157]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.03-09.28.33:007][157]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.03-09.28.33:007][157]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.03-09.28.33:007][157]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.03-09.28.33:007][157]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.03-09.28.33:007][157]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.03-09.28.33:010][157]LogExit: Exiting.
+[2017.03.03-09.28.33:046][157]Log file closed, 03/03/17 09:28:33
